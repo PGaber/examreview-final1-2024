@@ -1,0 +1,122 @@
+@media (min-width: 600px) {
+  .header{
+    position: fixed;
+    inset: 0 0 auto 0;
+  }
+  .header-top{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(230, 230, 230);
+  }
+  .class-logo{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 10px;
+  }
+  .navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 40px;
+  }
+  .navbar-container a{
+    color: white;
+    text-decoration: none;
+  }
+  .navbar-container p{
+    margin: auto 20px auto 20px;
+  }
+  .a-container{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    transition: 0.15s;
+  }
+  .a-container:hover{
+    background-color: rgb(48, 48, 105);
+  }
+  .a-container:active{
+    background-color: rgb(68, 68, 121);
+  }
+  .navbar-container p{
+    color: rgb(183, 245, 221);
+  }
+  .header-navbar{
+    height: 40px;
+    display: flex;
+    background-color: rgb(33, 33, 87);
+  }
+}
+/*fnjkdslfjklsadjfkl;ajskfl;jkdl;sj
+asjfklasj;fljkals;fjkl;asjklf;jsakl;dfjk
+jkfl;sajkdl;fjkls;dfjkl;sajdfkl;sajfkl;s*/
+@media (max-width: 600px) {
+  .header{
+    position: fixed;
+    inset: 0 0 auto 0;
+  }
+  .header-top{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(230, 230, 230);
+  }
+  .class-logo{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 10px;
+  }
+  .navbar-container{
+    align-items: center;
+  }
+  .navbar-container a{
+    color: white;
+    text-decoration: none;
+  }
+  .navbar-container p{
+    height: 40px;
+    font-size: 16px;
+    margin: 15px auto -10px auto;
+  }
+  .a-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+    height: 40px;
+  }
+  .a-container:hover{
+    background-color: rgb(48, 48, 105);
+  }
+  .a-container:active{
+    background-color: rgb(68, 68, 121);
+  }
+  .navbar-container p{
+    color: rgb(183, 245, 221);
+  }
+  .header-navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(33, 33, 87);
+    height: 135px;
+  }
+}

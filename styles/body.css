@@ -1,0 +1,89 @@
+@media (min-width: 900px) {
+  .left{
+    width: 200px;
+    background-color: rgb(0, 0, 53);
+    position: fixed;
+    inset: 120px auto 0 0
+  }
+  .right{
+    width: 200px;
+    background-color: rgb(0, 0, 53);
+    position: fixed;
+    inset: 120px 0 0 auto
+  }
+  main{
+    margin: 120px 200px 0 200px;
+  }
+}
+@media (min-width: 600px) and (max-width: 899.99px) {
+  .left{
+    width: 100px;
+    background-color: rgb(0, 0, 53);
+    position: fixed;
+    inset: 120px auto 0 0
+  }
+  .right{
+    width: 100px;
+    background-color: rgb(0, 0, 53);
+    position: fixed;
+    inset: 120px 0 0 auto
+  }
+  main{
+    margin: 120px 100px 0 100px;
+  }
+}
+@media (max-width: 600px) {
+  .left{
+    opacity: 0;
+  }
+  .right{
+    opacity: 0;
+  }
+  main{
+    margin: 215px 0 0 0;
+  }
+}
+main{
+  padding: 10px 15px;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+  list-style-type: none;
+}
+li::before{
+  content: "- ";
+  margin-right: 5px;
+  margin-left: -5px;
+}
+.may{
+  color: red;
+}
+.head p{
+  margin: 5px 0 10px 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.date{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.subject{
+  font-weight: 600;
+}
+.twentyfour{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+.twentysix{
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+.thirty{
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+}
